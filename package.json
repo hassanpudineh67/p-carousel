@@ -2,7 +2,10 @@
       "name": "p-carousel",
       "version": "1.0.1",
       "private": false,
-      "repository": "https://github.com/hassanpudineh67/p-carousel.git",
+      "repository": {
+            "type": "git",
+            "url": "https://github.com/hassanpudineh67/p-carousel.git"
+      },
       "scripts": {
             "serve": "vue-cli-service serve",
             "build": "vue-cli-service build",
@@ -39,8 +42,5 @@
             "> 1%",
             "last 2 versions",
             "not dead"
-      ],
-      "publishConfig": {
-            "registry": "https://npm.pkg.github.com"
-      }
+      ]
 }
