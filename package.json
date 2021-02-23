@@ -1,6 +1,6 @@
 {
       "name": "p-carousel",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "private": false,
       "repository": {
             "type": "git",
@@ -9,6 +9,7 @@
       "scripts": {
             "serve": "vue-cli-service serve",
             "build": "vue-cli-service build",
+            "build-bundle": "vue-cli-service build --target lib --name p-carousel ./src/main.js",
             "lint": "vue-cli-service lint"
       },
       "dependencies": {
