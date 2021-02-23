@@ -1,7 +1,15 @@
 {
       "name": "p-carousel",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "private": false,
+      "main": "./dist/p-carousel.common.js",
+      "files": [
+            "dist/*",
+            "src/*",
+            "public/*",
+            "*.json",
+            "*.js"
+      ],
       "repository": {
             "type": "git",
             "url": "https://github.com/hassanpudineh67/p-carousel.git"
