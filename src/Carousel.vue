@@ -1,5 +1,5 @@
 <template>
-      <div class="carousel-view">
+      <div id="app" class="carousel-view">
             <transition-group class="carousel" tag="div">
                   <div v-for="(slide, index) in slides" class="slide" :key="`slide-${index}`">
                         <h4>{{ slide.title }}</h4>
@@ -14,12 +14,10 @@
 
 <script>
 export default {
+      name: "p-carousel",
       data() {
             return {
-                  slides: [
-                        {title: '1'},
-                        {title: '2'}
-                  ],
+                  slides: [{ title: "1" }, { title: "2" }],
                   porps: {
                         //slides : {
                         //      type: Array,
@@ -37,7 +35,7 @@ export default {
                         //      type: Boolean,
                         //      default: false
                         //}
-                  }
+                  },
             };
       },
       methods: {

@@ -3,15 +3,15 @@ import Carousel from './Carousel.vue';
 
 Vue.config.productionTip = false
 
+const Components = {
+      Carousel
+}
+Vue.component('carousel' , Carousel);
 
 new Vue({
       render: h => h(Carousel),
 }).$mount('#app')
 
-const Components = {
-      Carousel
-}
 
-Vue.component('carousel' , Carousel);
 
 export default Components;
