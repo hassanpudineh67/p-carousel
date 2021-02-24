@@ -16,11 +16,15 @@
 export default {
       data() {
             return {
+                  slides: [
+                        {title: '1'},
+                        {title: '2'}
+                  ],
                   porps: {
-                        slides : {
-                              type: Array,
-                              required: true
-                        },
+                        //slides : {
+                        //      type: Array,
+                        //      required: true
+                        //},
                         //autoplay: {
                         //      type: Boolean,
                         //      default: false
